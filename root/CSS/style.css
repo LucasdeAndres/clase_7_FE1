@@ -4,14 +4,63 @@ h1{
     font-family: 'Times New Roman';
     font-style: normal;
     line-height: 84%;
+    text-align: center;
+    padding: 20px;
+
+    letter-spacing: 12px;
 }
 h2{
     background-color: #C4C4C4;
     color: #005677;
     font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    padding: 3px;
+    padding-left: 20px;
+
+}
+
+#dp{
+    font-style: italic;
+    line-height: 25px;
+
+}
+
+#fa{
+    list-style-type: none;
+}
+
+#el{
+    list-style-type: none;
+}
+
+#blank{
+    padding: 50px;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #005677;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 h3{
-    background-color: #005677;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+    
+    margin-right: 20px;
+}
+
+#imag{
+    margin-right: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
